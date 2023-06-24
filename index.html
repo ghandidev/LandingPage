@@ -3,8 +3,149 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Code</title>
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div id="wrapper" class="wrapper">
+      <header id="header">
+        <div id="home" class="logo">
+          <img
+            id="header-img"
+            class="header-img"
+            src="https://cdn-icons-png.flaticon.com/512/984/984145.png"
+            alt="Code-logo"
+          />
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#video">Show</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#form">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <form
+        id="form"
+        class="form"
+        action="https://www.freecodecamp.com/email-submit"
+      >
+        <h2 class="text">Style, Best Service and more. Only Today</h2>
+        <input
+          id="email"
+          type="email"
+          placeholder="email@code.com"
+          name="email"
+          required
+        />
+        <input class="btn" id="submit" type="submit" />
+      </form>
+      <div class="container">
+        <section id="features" class="features">
+          <div class="grid">
+            <div class="icon">
+              <ion-icon name="code-working-outline"></ion-icon>
+            </div>
+            <div class="desc">
+              <h2>Premium Codes</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Excepturi obcaecati aut labore, inventore in porro maxime
+                asperiores illo totam sint.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <ion-icon name="flash-outline"></ion-icon>
+            </div>
+            <div class="desc">
+              <h2>Fast developing</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate laudantium deserunt temporibus delectus aperiam nam!
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <ion-icon name="trending-up-outline"></ion-icon>
+            </div>
+            <div class="desc">
+              <h2>Quality Service</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis similique mollitia iste quas in quasi perspiciatis.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="video">
+          <iframe
+            id="video"
+            width="377"
+            height="671"
+            src="https://www.youtube.com/embed/8ubmqUL3KR8"
+            title="How to Use Google Fonts #shorts"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="pricing" class="pricing">
+          <div class="product">
+            <div class="pack">Basic Pack</div>
+            <h2>200$</h2>
+            <p>Basic code in html</p>
+            <button class="button">Buy</button>
+          </div>
+          <div class="product">
+            <div class="pack">Medium Pack</div>
+            <h2>300$</h2>
+            <p>Pack html/css</p>
+            <button class="button">Buy</button>
+          </div>
+          <div class="product">
+            <div class="pack">Vip Pack</div>
+            <h2>600$</h2>
+            <p>Complete Desing html/css/Js with service for a month</p>
+            <button class="button">Buy</button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+  <footer class="footer">
+    <ul>
+      <li>
+        <spam>Privacy</spam>
+      </li>
+      <li>
+        <spam>Terms</spam>
+      </li>
+      <li>
+        <spam>Contact</spam>
+      </li>
+      <li>
+        <span>Copyright 2023, Code Repair</span>
+      </li>
+    </ul>
+  </footer>
 </html>
